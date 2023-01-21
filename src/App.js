@@ -11,6 +11,19 @@ export const ACTIONS = {
   EVALUATE: 'evaluate'
 }
 
+const INT_FORMATTER = new Intl.NumberFormat("en-us", {maximumFractionDigits:0,})
+
+function formatOperand(operand){
+
+  if(operand == null) return
+
+  const [integer, decimal] = operand.split('.')
+
+  if(decimal == null) return INT_FORMATTER.format(integer)
+
+  return `${INT_FORMATTER.format(integer)}.${decimal}`
+}
+
 function reducer(state, {type, payload}){
   //eslint-disable-next-line
   switch(type){
@@ -164,8 +177,8 @@ function App() {
   return (
     <div className="Calc-grid">
       <div className= "output">
-        <div className= "prev-operand">{previousOperand} {operation}</div>
-        <div className= "curr-operand">{currentOperand}</div>
+        <div className= "prev-operand">{formatOperand(previousOperand)} {operation}</div>
+        <div className= "curr-operand">{formatOperand(currentOperand)}</div>
     </div>
 
     <button className= "span-two" onClick={()=> dispatch({type: ACTIONS.CLEAR})}> AC </button>
