@@ -11,8 +11,8 @@ body{
     display: grid;
     margin-top: 4rem;
     justify-content: center;
-    grid-template-columns: repeat(4,6rem);
-    grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
+    grid-template-columns: repeat(5, 6rem);
+    grid-template-rows: minmax(7rem, auto) repeat(4, 6rem);
 }
 
 .Calc-grid > button{
@@ -26,6 +26,10 @@ body{
 .Calc-grid > button:hover,
 .Calc-grid > button:focus{
     background-color: rgba(255,255,255,.96);
+}
+
+.span-three{
+    grid-column: span 3;
 }
 .span-two{
     grid-column: span 2;
