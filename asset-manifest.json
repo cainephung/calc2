@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/cainephung/calculator-app_REACT/static/css/main.ee99b59c.css",
-    "main.js": "/cainephung/calculator-app_REACT/static/js/main.12d60f67.js",
-    "static/js/787.7e624359.chunk.js": "/cainephung/calculator-app_REACT/static/js/787.7e624359.chunk.js",
-    "index.html": "/cainephung/calculator-app_REACT/index.html",
-    "main.ee99b59c.css.map": "/cainephung/calculator-app_REACT/static/css/main.ee99b59c.css.map",
-    "main.12d60f67.js.map": "/cainephung/calculator-app_REACT/static/js/main.12d60f67.js.map",
-    "787.7e624359.chunk.js.map": "/cainephung/calculator-app_REACT/static/js/787.7e624359.chunk.js.map"
+    "main.css": "/calculator-app_REACT/static/css/main.ee99b59c.css",
+    "main.js": "/calculator-app_REACT/static/js/main.f36cefda.js",
+    "static/js/787.7e624359.chunk.js": "/calculator-app_REACT/static/js/787.7e624359.chunk.js",
+    "index.html": "/calculator-app_REACT/index.html",
+    "main.ee99b59c.css.map": "/calculator-app_REACT/static/css/main.ee99b59c.css.map",
+    "main.f36cefda.js.map": "/calculator-app_REACT/static/js/main.f36cefda.js.map",
+    "787.7e624359.chunk.js.map": "/calculator-app_REACT/static/js/787.7e624359.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ee99b59c.css",
-    "static/js/main.12d60f67.js"
+    "static/js/main.f36cefda.js"
   ]
 }
